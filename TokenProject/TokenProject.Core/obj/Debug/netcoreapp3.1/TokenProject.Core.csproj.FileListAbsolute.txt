@@ -8,8 +8,8 @@ C:\Users\ademo\source\repos\TokenProject\TokenProject.Core\obj\Debug\netcoreapp3
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Core\bin\Debug\netcoreapp3.1\TokenProject.Core.deps.json
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Core\bin\Debug\netcoreapp3.1\TokenProject.Core.dll
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Core\bin\Debug\netcoreapp3.1\TokenProject.Core.pdb
-D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Core\obj\Debug\netcoreapp3.1\TokenProject.Core.csprojAssemblyReference.cache
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Core\obj\Debug\netcoreapp3.1\TokenProject.Core.AssemblyInfoInputs.cache
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Core\obj\Debug\netcoreapp3.1\TokenProject.Core.AssemblyInfo.cs
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Core\obj\Debug\netcoreapp3.1\TokenProject.Core.dll
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Core\obj\Debug\netcoreapp3.1\TokenProject.Core.pdb
+D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Core\obj\Debug\netcoreapp3.1\TokenProject.Core.csprojAssemblyReference.cache

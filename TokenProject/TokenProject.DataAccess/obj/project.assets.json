@@ -1454,17 +1454,17 @@
           "bin/placeholder/TokenProject.Core.dll": {}
         }
       },
-      "TokenProject.Entites/1.0.0": {
+      "TokenProject.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "TokenProject.Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/TokenProject.Entites.dll": {}
+          "bin/placeholder/TokenProject.Entities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TokenProject.Entites.dll": {}
+          "bin/placeholder/TokenProject.Entities.dll": {}
         }
       }
     }
@@ -5553,16 +5553,16 @@
       "path": "../TokenProject.Core/TokenProject.Core.csproj",
       "msbuildProject": "../TokenProject.Core/TokenProject.Core.csproj"
     },
-    "TokenProject.Entites/1.0.0": {
+    "TokenProject.Entities/1.0.0": {
       "type": "project",
-      "path": "../TokenProject.Entites/TokenProject.Entites.csproj",
-      "msbuildProject": "../TokenProject.Entites/TokenProject.Entites.csproj"
+      "path": "../TokenProject.Entites/TokenProject.Entities.csproj",
+      "msbuildProject": "../TokenProject.Entites/TokenProject.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.0",
-      "TokenProject.Entites >= 1.0.0"
+      "TokenProject.Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5595,8 +5595,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\TokenProject.Entites.csproj": {
-              "projectPath": "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\TokenProject.Entites.csproj"
+            "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\TokenProject.Entities.csproj": {
+              "projectPath": "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\TokenProject.Entities.csproj"
             }
           }
         }

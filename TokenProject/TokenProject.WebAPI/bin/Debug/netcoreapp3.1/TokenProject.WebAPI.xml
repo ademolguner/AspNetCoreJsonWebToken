@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TokenProject.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:TokenProject.WebAPI.Controllers.HerhangiBirApiController.Get">
+            <summary>
+            Bu metodu çağırabilmek için  Authorize işlemi gerekmektedir.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TokenProject.WebAPI.Controllers.HerhangiBirApiController.Get(System.Int32)">
+            <summary>
+            Bu metot için Authrorize zorunlu değil.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

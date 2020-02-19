@@ -1459,7 +1459,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.0",
-          "TokenProject.Entites": "1.0.0"
+          "TokenProject.Entities": "1.0.0"
         },
         "compile": {
           "bin/placeholder/TokenProject.DataAccess.dll": {}
@@ -1468,17 +1468,17 @@
           "bin/placeholder/TokenProject.DataAccess.dll": {}
         }
       },
-      "TokenProject.Entites/1.0.0": {
+      "TokenProject.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "TokenProject.Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/TokenProject.Entites.dll": {}
+          "bin/placeholder/TokenProject.Entities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TokenProject.Entites.dll": {}
+          "bin/placeholder/TokenProject.Entities.dll": {}
         }
       }
     }
@@ -5572,10 +5572,10 @@
       "path": "../TokenProject.DataAccess/TokenProject.DataAccess.csproj",
       "msbuildProject": "../TokenProject.DataAccess/TokenProject.DataAccess.csproj"
     },
-    "TokenProject.Entites/1.0.0": {
+    "TokenProject.Entities/1.0.0": {
       "type": "project",
-      "path": "../TokenProject.Entites/TokenProject.Entites.csproj",
-      "msbuildProject": "../TokenProject.Entites/TokenProject.Entites.csproj"
+      "path": "../TokenProject.Entites/TokenProject.Entities.csproj",
+      "msbuildProject": "../TokenProject.Entites/TokenProject.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {

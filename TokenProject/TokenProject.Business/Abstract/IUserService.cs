@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using TokenProject.Core.Entites.Concrete;
+using TokenProject.Core.Entities.Concrete;
 
 namespace TokenProject.Business.Abstract
 {

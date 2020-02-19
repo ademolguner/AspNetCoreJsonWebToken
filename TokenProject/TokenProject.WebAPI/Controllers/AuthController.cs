@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using TokenProject.Business.Abstract;
-using TokenProject.Entites.Dtos;
+using TokenProject.Core.Utilities.Security.Jwt; 
+using TokenProject.Entities.Dtos;
 
 namespace TokenProject.WebAPI.Controllers
 {
@@ -24,37 +20,35 @@ namespace TokenProject.WebAPI.Controllers
         public ActionResult Login(UserForLoginDto userForLoginDto)
         {
             var userToLogin = _authService.Login(userForLoginDto);
-            if (userToLogin==null)
+            if (userToLogin == null)
             {
                 return BadRequest();
             }
 
             var result = _authService.CreateAccessToken(userToLogin);
-            if (result!=null)
+            if (result != null)
             {
                 return Ok(result);
             }
 
-            return BadRequest(result);
+            return BadRequest((AccessToken)null);
         }
 
         [HttpPost("register")]
         public ActionResult Register(UserForRegisterDto userForRegisterDto)
         {
             var userExists = _authService.UserExists(userForRegisterDto.Email);
-            if (userExists != null)
-            {
-                return BadRequest(userExists);
-            }
+            if (!userExists)
+                return BadRequest(false);
 
             var registerResult = _authService.Register(userForRegisterDto, userForRegisterDto.Password);
             var result = _authService.CreateAccessToken(registerResult);
-            if (result==null)
+            if (result == null)
             {
-                return Ok(result);
+                return Ok((AccessToken)null);
             }
 
-            return BadRequest(result);
+            return BadRequest(error: result);
         }
     }
 }

@@ -4095,9 +4095,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\TokenProject.Entites.csproj",
-      "projectName": "TokenProject.Entites",
-      "projectPath": "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\TokenProject.Entites.csproj",
+      "projectUniqueName": "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\TokenProject.Entities.csproj",
+      "projectName": "TokenProject.Entities",
+      "projectPath": "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\TokenProject.Entities.csproj",
       "packagesPath": "C:\\Users\\ademo\\.nuget\\packages\\",
       "outputPath": "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\obj\\",
       "projectStyle": "PackageReference",

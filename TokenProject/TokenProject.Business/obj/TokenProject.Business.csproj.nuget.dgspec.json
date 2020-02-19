@@ -158,8 +158,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\TokenProject.Entites.csproj": {
-                "projectPath": "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\TokenProject.Entites.csproj"
+              "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\TokenProject.Entities.csproj": {
+                "projectPath": "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\TokenProject.Entities.csproj"
               }
             }
           }
@@ -197,12 +197,12 @@
         }
       }
     },
-    "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\TokenProject.Entites.csproj": {
+    "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\TokenProject.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\TokenProject.Entites.csproj",
-        "projectName": "TokenProject.Entites",
-        "projectPath": "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\TokenProject.Entites.csproj",
+        "projectUniqueName": "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\TokenProject.Entities.csproj",
+        "projectName": "TokenProject.Entities",
+        "projectPath": "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\TokenProject.Entities.csproj",
         "packagesPath": "C:\\Users\\ademo\\.nuget\\packages\\",
         "outputPath": "D:\\PROJELERIM\\SOURCECONTROL\\GIT\\AspCoreJsonWebToken\\TokenProject\\TokenProject.Entites\\obj\\",
         "projectStyle": "PackageReference",

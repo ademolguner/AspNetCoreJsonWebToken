@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using TokenProject.Core.Entites.Concrete;
+﻿using System.Collections.Generic;
+using TokenProject.Core.Entities.Concrete;
 
 namespace TokenProject.Core.Utilities.Security.Jwt
 {
-   public interface ITokenHelper
+    public interface ITokenHelper
     {
-
         AccessToken CreateToken(User user, List<OperationClaim> operationClaims);
     }
 }

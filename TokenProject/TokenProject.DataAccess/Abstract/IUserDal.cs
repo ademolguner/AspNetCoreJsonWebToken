@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using TokenProject.Core.DataAccess;
-using TokenProject.Core.Entites.Concrete;
+using TokenProject.Core.Entities.Concrete;
 
 namespace TokenProject.DataAccess.Abstract
 {

@@ -1,9 +1,9 @@
 ﻿using System;
 using TokenProject.Business.Abstract;
-using TokenProject.Core.Entites.Concrete;
+using TokenProject.Core.Entities.Concrete;
 using TokenProject.Core.Utilities.Security.Hashing;
-using TokenProject.Core.Utilities.Security.Jwt;
-using TokenProject.Entites.Dtos;
+using TokenProject.Core.Utilities.Security.Jwt; 
+using TokenProject.Entities.Dtos;
 
 namespace TokenProject.Business.Concrete.Managers
 {
@@ -18,7 +18,7 @@ namespace TokenProject.Business.Concrete.Managers
             _tokenHelper = tokenHelper;
         }
 
-        public  User Register(UserForRegisterDto userForRegisterDto, string password)
+        public User Register(UserForRegisterDto userForRegisterDto, string password)
         {
             byte[] passwordHash, passwordSalt;
             HashingHelper.CreatePasswordHash(password, out passwordHash, out passwordSalt);
@@ -29,26 +29,27 @@ namespace TokenProject.Business.Concrete.Managers
                 LastName = userForRegisterDto.LastName,
                 PasswordHash = passwordHash,
                 PasswordSalt = passwordSalt,
-                Status = true
+                Status = true,
+                CreatedDate = DateTime.Now
             };
             _userService.Add(user);
             return user;
         }
 
-        public  User Login(UserForLoginDto userForLoginDto)
+        public User Login(UserForLoginDto userForLoginDto)
         {
             var userToCheck = _userService.GetByMail(userForLoginDto.Email);
             if (userToCheck == null)
             {
-                  throw  new Exception("hata metni");
+                throw new Exception("hata metni");
             }
 
             if (!HashingHelper.VerifyPasswordHash(userForLoginDto.Password, userToCheck.PasswordHash, userToCheck.PasswordSalt))
             {
-                    throw new Exception("hata metni"); ;
+                throw new Exception("hata metni"); ;
             }
 
-            return  userToCheck;
+            return userToCheck;
         }
 
         public bool UserExists(string email)
@@ -64,9 +65,7 @@ namespace TokenProject.Business.Concrete.Managers
         {
             var claims = _userService.GetClaims(user);
             var accessToken = _tokenHelper.CreateToken(user, claims);
-            return  accessToken;
+            return accessToken;
         }
-
-         
     }
 }

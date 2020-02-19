@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using DataAccess.Concrete.EntityFramework.Contexts;
 using TokenProject.Core.DataAccess.EntityFramework;
-using TokenProject.Core.Entites.Concrete;
+using TokenProject.Core.Entities.Concrete;
 using TokenProject.DataAccess.Abstract;
+using TokenProject.DataAccess.Concrete.EntityFramework.Context;
 
 namespace TokenProject.DataAccess.Concrete.EntityFramework
 {
@@ -12,10 +12,10 @@ namespace TokenProject.DataAccess.Concrete.EntityFramework
         public List<OperationClaim> GetClaims(User user)
         {
             using var context = new JwtTokenProjectDbContext();
-            var result = from operationClaim in context.OperationClaims
-                         join userOperationClaim in context.UserOperationClaims
+            var result = from operationClaim in context.OperationClaim
+                         join userOperationClaim in context.UserOperationClaim
                              on operationClaim.Id equals userOperationClaim.OperationClaimId
-                         where userOperationClaim.UserId == user.Id
+                         where userOperationClaim.UserId == user.UserId
                          select new OperationClaim { Id = operationClaim.Id, Name = operationClaim.Name };
             return result.ToList();
         }

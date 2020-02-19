@@ -18,13 +18,13 @@ D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Bu
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Business\bin\Debug\netcoreapp3.1\TokenProject.Business.pdb
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Business\bin\Debug\netcoreapp3.1\TokenProject.Core.dll
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Business\bin\Debug\netcoreapp3.1\TokenProject.DataAccess.dll
-D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Business\bin\Debug\netcoreapp3.1\TokenProject.Entites.dll
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Business\bin\Debug\netcoreapp3.1\TokenProject.DataAccess.pdb
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Business\bin\Debug\netcoreapp3.1\TokenProject.Core.pdb
-D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Business\bin\Debug\netcoreapp3.1\TokenProject.Entites.pdb
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Business\obj\Debug\netcoreapp3.1\TokenProject.Business.csprojAssemblyReference.cache
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Business\obj\Debug\netcoreapp3.1\TokenProject.Business.AssemblyInfoInputs.cache
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Business\obj\Debug\netcoreapp3.1\TokenProject.Business.AssemblyInfo.cs
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Business\obj\Debug\netcoreapp3.1\TokenProject.Business.csproj.CopyComplete
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Business\obj\Debug\netcoreapp3.1\TokenProject.Business.dll
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Business\obj\Debug\netcoreapp3.1\TokenProject.Business.pdb
+D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Business\bin\Debug\netcoreapp3.1\TokenProject.Entities.dll
+D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.Business\bin\Debug\netcoreapp3.1\TokenProject.Entities.pdb

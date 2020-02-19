@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using TokenProject.Business.Abstract;
-using TokenProject.Core.Entites.Concrete;
+using TokenProject.Core.Entities.Concrete;
 using TokenProject.DataAccess.Abstract;
 
 namespace TokenProject.Business.Concrete.Managers
 {
     public class UserManager : IUserService
     {
-        readonly IUserDal _userDal;
+        private readonly IUserDal _userDal;
 
         public UserManager(IUserDal userDal)
         {

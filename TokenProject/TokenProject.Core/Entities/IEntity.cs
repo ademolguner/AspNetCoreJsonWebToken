@@ -1,4 +1,4 @@
-﻿namespace TokenProject.Core.Entites
+﻿namespace TokenProject.Core.Entities
 {
     public interface IEntity
     {

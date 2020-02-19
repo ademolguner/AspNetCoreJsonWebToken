@@ -9,7 +9,7 @@
       "TokenProject.DataAccess/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.0",
-          "TokenProject.Entites": "1.0.0"
+          "TokenProject.Entities": "1.0.0"
         },
         "runtime": {
           "TokenProject.DataAccess.dll": {}
@@ -984,12 +984,12 @@
           "TokenProject.Core.dll": {}
         }
       },
-      "TokenProject.Entites/1.0.0": {
+      "TokenProject.Entities/1.0.0": {
         "dependencies": {
           "TokenProject.Core": "1.0.0"
         },
         "runtime": {
-          "TokenProject.Entites.dll": {}
+          "TokenProject.Entities.dll": {}
         }
       }
     }
@@ -1677,7 +1677,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "TokenProject.Entites/1.0.0": {
+    "TokenProject.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

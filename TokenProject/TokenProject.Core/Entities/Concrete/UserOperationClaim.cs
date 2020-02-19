@@ -1,4 +1,4 @@
-﻿namespace TokenProject.Core.Entites.Concrete
+﻿namespace TokenProject.Core.Entities.Concrete
 {
     public class UserOperationClaim : IEntity
     {

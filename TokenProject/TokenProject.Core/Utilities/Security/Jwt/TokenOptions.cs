@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TokenProject.Core.Utilities.Security.Jwt
+﻿namespace TokenProject.Core.Utilities.Security.Jwt
 {
-   public  class TokenOptions
+    public class TokenOptions
     {
         public string Audience { get; set; }
         public string Issuer { get; set; }

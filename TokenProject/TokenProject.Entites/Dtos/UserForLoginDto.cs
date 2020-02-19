@@ -1,6 +1,6 @@
-﻿using TokenProject.Core.Entites;
+﻿using TokenProject.Core.Entities;
 
-namespace TokenProject.Entites.Dtos
+namespace TokenProject.Entities.Dtos
 {
     public class UserForLoginDto : IDto
     {

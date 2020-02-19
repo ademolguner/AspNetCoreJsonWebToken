@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using TokenProject.Core.Entites;
+using TokenProject.Core.Entities;
 
 namespace TokenProject.Core.DataAccess
 {
