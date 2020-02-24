@@ -107,4 +107,8 @@ D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.We
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.WebUI\obj\Debug\netcoreapp3.0\TokenProject.WebUI.pdb
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.WebUI\obj\Debug\netcoreapp3.0\Razor\Views\Home\Login.cshtml.g.cs
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.WebUI\bin\Debug\netcoreapp3.0\RestSharp.dll
+D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.WebUI\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.WebUI\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
+D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.WebUI\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
+D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.WebUI\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
 D:\PROJELERIM\SOURCECONTROL\GIT\AspCoreJsonWebToken\TokenProject\TokenProject.WebUI\obj\Debug\netcoreapp3.0\TokenProject.WebUI.MvcApplicationPartsAssemblyInfo.cache

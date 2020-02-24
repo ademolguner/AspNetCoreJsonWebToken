@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace TokenProject.WebAPI.Controllers
 {
@@ -12,14 +13,23 @@ namespace TokenProject.WebAPI.Controllers
         /// Bu metodu çağırabilmek için  Authorize işlemi gerekmektedir.
         /// </summary>
         /// <returns></returns>
-        [HttpGet( "GetList")]
+        [HttpGet("GetList")]
         [Authorize]
         public IEnumerable<string> Get()
         {
+            var rolesClaims = HttpContext.User.Claims.Where(p => p.Type.Contains("role"));
+            var principal = HttpContext.User;
+            if (principal?.Claims != null)
+            {
+                foreach (var claim in principal.Claims)
+                {
+                    
+                } 
+            }
             return new string[] { "Adem", "Olguner", ".Net Core 3.0", "Json Web Token", "Swagger", "-Authorize", "İşlemleri" };
         }
 
-        
+
         /// <summary>
         /// Bu metot için Authrorize zorunlu değil.
         /// </summary>
@@ -29,7 +39,7 @@ namespace TokenProject.WebAPI.Controllers
         public string Get(int id)
         {
             return "Authorize etiketi yok, Token kontrolü zorunlu değil.";
-        } 
-         
+        }
+
     }
 }
